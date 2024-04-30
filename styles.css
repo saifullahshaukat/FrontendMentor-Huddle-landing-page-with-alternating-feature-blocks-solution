@@ -1,0 +1,795 @@
+body {
+  font-family: "Popins", "Open Sans";
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  position: absolute;
+  width: 100%;
+  padding-top: 0px;
+  z-index: 1;
+}
+
+.headiv {
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.headbtn {
+  background-color: white;
+  font-family: "Open Sans";
+  font-weight: 700;
+  font-size: 14px;
+  float: right;
+  box-shadow: 0 0 6px -4px;
+  border-radius: 25px;
+  padding: 5px 20px 6px 20px;
+  margin: auto 0 auto auto;
+  border: none;
+}
+
+.logoimg {
+  max-width: 100%;
+  width: 120px;
+  padding: 5px 0 0 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+.Bannersec {
+  background-color: #edfbfe;
+  height: 80vh;
+}
+
+.bannerimg {
+  position: relative;
+  text-align: center;
+  margin: 0;
+}
+
+.desktopimg,
+.mobileimg {
+  width: 40vh;
+  display: block;
+}
+
+.bannerhead {
+  display: flex;
+  position: absolute;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+.bannerhead h1 {
+  display: inline-block;
+  padding: 0 20px;
+  padding-bottom: 20px;
+  margin: 0;
+  font-size: 20px;
+  font-weight: 750;
+}
+
+.bannerhead p {
+  display: inline-block;
+  padding-bottom: 20px;
+  margin: 0 39px 0;
+  font-size: 16px;
+}
+
+
+.bannerhead button {
+  font-family: "Open Sans";
+  font-weight: 600;
+  color: white;
+  border: none;
+  padding: 10px 40px;
+  border-radius: 40px;
+  background-color: hsl(322, 100%, 66%);
+}
+
+.ill {
+  max-width: 70%;
+  margin-top: 16%;
+}
+
+.banner-text-div{
+  margin-top: 10%;
+}
+.banner-text-div button{
+  margin-top: 5%;
+}
+.div1,
+.div2,
+.div3 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 70%;
+  padding: 30px;
+  margin-bottom: 40px;
+  box-shadow: 0 0 6px -4px;
+  border-radius: 20px;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: space-around;
+  margin: 60px 0;
+}
+
+article img {
+  margin: 10px;
+}
+
+.h21 {
+  margin-top: 0;
+  font-size: 20px;
+
+}
+
+.h22 {
+  font-size: 20px;
+  margin-bottom: 0;
+}
+
+.comsec {
+  position: relative;
+  background-color: white;
+  margin: 10px 15px -50px;
+  box-shadow: 0 0 6px -4px;
+  border-radius: 20px;
+
+}
+
+.comdiv {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  text-align: center;
+  padding: 30px 5px;
+}
+
+.comdiv button {
+  font-family: "Open Sans";
+  font-size: 10px;
+  font-weight: 600;
+  color: white;
+  border: none;
+  padding: 10px 40px;
+  border-radius: 40px;
+  background-color: hsl(322, 100%, 66%);
+}
+
+.comdiv h3 {
+  font-size: 16px;
+  font-weight: 750;
+}
+
+.lastsec {
+  background-color: #00252e;
+  color: #feffff;
+}
+
+.im img {
+  display: flex;
+  position: absolute;
+  mix-blend-mode: lighten;
+  margin: 105px 16px 0;
+  width: 180px;
+
+}
+
+.lastdiv {
+  padding: 130px 20px 0px;
+}
+
+.lastdiv ul {
+  padding: 0px;
+  list-style-type: none;
+}
+
+address {
+  padding: 26px 26px 0;
+}
+
+address ul li {
+  padding-left: 15px;
+}
+
+address ul li:not(:first-child) {
+  line-height: 40px;
+}
+
+.lastdiv1 ul li {
+  line-height: 40px;
+}
+.lastdiv2 ul li {
+  line-height: 40px;
+}
+
+
+address ul li:first-child {
+  padding-bottom: 16px;
+}
+
+address ul li:first-child {
+  list-style-image: url(images/icon-location.svg);
+}
+
+address ul li:nth-of-type(2) {
+  list-style-image: url(images/icon-phone.svg);
+}
+
+address ul li:last-child {
+  list-style-image: url(images/icon-email.svg);
+}
+
+.social {
+  max-width: 175px;
+}
+.soc{
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.copyright {
+  margin: 0;
+  text-align: center;
+  font-size: 10px;
+}
+
+footer {
+  background-color: #00252e;
+}
+
+.attribution {
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 8px;
+  color: white;
+  margin: 0;
+  padding: 20px;
+}
+
+.attribution a {
+  text-decoration: none;
+  color: white;
+}
+
+@media screen and (min-width: 435px)and (max-width: 500px) {
+  .ill {
+    max-width: 70%;
+    margin-top: 10%;
+  }
+}
+@media screen and (min-width: 500px) and (max-width: 709px) {
+  .banner-text-div{
+    margin-top: 6% !important;
+  }
+  .ill {
+    max-width: 60%;
+    margin-top: 6%;
+  }
+  .banner-text-div button{
+    margin-top: 3% !important;
+  }
+}
+@media screen and (max-width: 710px) {
+
+  .desktopimg,
+  .desktopdiv {
+    display: none;
+  }
+
+  .bannerhead {
+    top: 15%;
+  }
+
+}
+
+@media screen and (max-width: 1020px) and (min-width: 710px) {
+  .mobileimg,
+  .div3 {
+    display: none !important;
+  }
+
+  .headiv {
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 80px 0;
+  }
+  .div1 img, .div2 img, .desktopdivimg img{
+    width: 80%;
+  }
+  .div1img, .div2img, .desktopdivimg{
+    display: flex;
+    justify-content: center;
+  }
+  img {
+    max-width: 100%;
+  }
+
+  .Bannersec {
+    background-color: #edfbfe;
+    height: 80vh;
+    padding: 0 80px;
+    background-image: url(images/bg-hero-desktop.svg);
+  }
+
+  .bannerimg {
+    position: static;
+    text-align: left;
+    margin: 0;
+  }
+
+  .headbtn {
+    font-weight: 700;
+    font-size: 12px;
+    border-radius: 25px;
+    padding: 7px 35px 8px;
+  }
+
+  .logoimg {
+    max-width: 100%;
+    width: 140px;
+    padding: 5px 0 0 0;
+  }
+
+  .bannerhead {
+    padding-top: 12%;
+    margin: 0 10% 0 0;
+    display: flex;
+    position: static;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap;
+    text-align: center;
+  }
+@media screen and (max-width: 850px) {
+ .bannerhead {
+    padding-top: 24%;
+  }
+  
+}
+  .bannerhead h1 {
+    text-align: center;
+    display: inline-block;
+    padding: 0;
+    padding-bottom: 20px;
+    margin: 0;
+    font-size: 30px;
+    font-weight: 750;
+  }
+
+  .bannerhead p {
+    display: inline-block;
+    padding-bottom: 0;
+    margin: 0;
+    font-size: 16px;
+  }
+
+  .bannerhead button {
+    position: absolute;
+    left: 32%;
+    right: 32%;
+    top: 20vh;
+    margin-top: 0;
+    
+  }
+
+  .banner-text-div {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    max-width: 100%;
+    position: absolute;
+    top: 50vh;
+    margin: 0 6%;
+
+  }
+
+  .banner-img-div {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .ill {
+    max-width: 65%;
+    margin-top: 0;
+  }
+
+  .div1,
+  .desktopdiv {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    align-items: center;
+    text-align: left;
+  }
+
+  .desktopdiv {
+    width: 70%;
+    padding: 30px;
+    margin-bottom: 40px;
+    box-shadow: 0 0 6px -4px;
+    border-radius: 20px;
+  }
+
+  .div2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    text-align: left;
+  }
+
+  .comsec {
+    position: relative;
+    background-color: white;
+    margin: 10px 30% -50px;
+    box-shadow: 0 0 6px -4px;
+    border-radius: 20px;
+
+  }
+
+  .comdiv {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    text-align: center;
+    padding: 30px 5px;
+  }
+
+  .comdiv button {
+    font-family: "Open Sans";
+    font-size: 10px;
+    font-weight: 600;
+    color: white;
+    border: none;
+    padding: 10px 10%;
+    border-radius: 40px;
+    background-color: hsl(322, 100%, 66%);
+  }
+
+  .comdiv h3 {
+    font-size: 16px;
+    font-weight: 750;
+  }
+
+  .im img {
+    display: flex;
+    position: absolute;
+    mix-blend-mode: lighten;
+    margin: 70px 0 0 6%;
+    width: 180px;
+
+  }
+
+  .lastdiv {
+    display: flex;
+    padding: 130px 0 0 0;
+    margin: 0  0 0 8.5%;
+  }
+
+  address {
+    width: 100%;
+    padding: 0;
+  }
+  .add{
+    display: flex;
+    justify-content: center;
+    width: 35%;
+    padding: 0;
+  }
+  .lastdiv1, .lastdiv2{
+    display: flex;
+    justify-content: flex-end;
+    width: 20%;
+  }
+  .lastdiv1 ul, .lastdiv2 ul{
+    padding-left: 20%;
+  }
+  .social{
+    width: 80%;
+  }
+  .soc{
+    justify-content: flex-start;
+    width: 30%;
+    padding-left: 5%;
+
+  }
+  .lastdiv2 ul{
+    margin: 0;
+  }
+
+  .ul1{
+    margin: 0;
+  }
+ address ul {
+  margin-top: 8px;
+ }
+
+
+  .copyright{
+    text-align: right;
+    padding-right: 6%;
+  }
+  footer .attribution{
+    text-decoration: dotted;
+    font-size: 12px;
+  }
+  
+}
+@media screen and (min-width: 1020px) {
+
+  .mobileimg,
+  .div3 {
+    display: none !important;
+  }
+
+  .headiv {
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 80px 0;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  .Bannersec {
+    background-color: #edfbfe;
+    height: 80vh;
+    padding: 0 80px;
+    background-image: url(images/bg-hero-desktop.svg);
+  }
+
+  .bannerimg {
+    position: static;
+    text-align: left;
+    margin: 0;
+  }
+
+  .headbtn {
+    font-weight: 700;
+    font-size: 12px;
+    border-radius: 25px;
+    padding: 7px 35px 8px;
+  }
+
+  .logoimg {
+    max-width: 100%;
+    width: 140px;
+    padding: 5px 0 0 0;
+  }
+
+  .bannerhead {
+    padding-top: 10%;
+    margin: 0 10% 0 0;
+    display: flex;
+    position: static;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap;
+  }
+
+@media screen and (max-width:1250px) {
+  .bannerhead{
+      padding-top: 16%;
+    }
+  }
+@media screen and (min-width:1440px){
+  .bannerhead{
+    padding-top: 8%;
+  }
+}
+@media screen and (min-width:1520px){
+  .bannerhead{
+    padding-top: 5.5%;
+  }
+}
+@media screen and (min-width:1520px){
+  .bannerhead{
+    padding-top: 12%;
+  }
+  .banner-img-div img{
+    width: 50%;
+  }
+  .banner-text-div{
+    max-width: 45% !important;
+  }
+}
+
+  .bannerhead h1 {
+    text-align: left;
+    display: inline-block;
+    padding: 0;
+    padding-bottom: 20px;
+    margin: 0;
+    font-size: 30px;
+    font-weight: 750;
+  }
+
+  .bannerhead p {
+    display: inline-block;
+    padding-bottom: 20px;
+    margin: 0;
+    font-size: 16px;
+  }
+
+  .bannerhead button {
+    font-family: "Open Sans";
+    font-weight: 600;
+    color: white;
+    border: none;
+    padding: 10px 40px;
+    border-radius: 40px;
+    background-color: hsl(322, 100%, 66%);
+  }
+
+  .banner-text-div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 30%;
+    margin: 0 -18% -5% 0;
+  }
+
+  .banner-img-div {
+    width: 120%;
+    position: relative;
+    display: inline;
+  }
+
+  .ill {
+    max-width: 65%;
+    float: right;
+    margin-top: 0;
+  }
+
+  .div1,
+  .desktopdiv {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    align-items: center;
+    text-align: left;
+  }
+.div1 img, .div2 img, .desktopdivimg img{
+  width: 70%;
+}
+.div1img, .div2img, .desktopdivimg{
+  display: flex;
+  justify-content: center;
+}
+  .desktopdiv {
+    width: 70%;
+    padding: 30px;
+    margin-bottom: 40px;
+    box-shadow: 0 0 6px -4px;
+    border-radius: 20px;
+  }
+
+  .div2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    text-align: left;
+  }
+
+  .comsec {
+    position: relative;
+    background-color: white;
+    margin: 10px 30% -50px;
+    box-shadow: 0 0 6px -4px;
+    border-radius: 20px;
+
+  }
+
+  .comdiv {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    text-align: center;
+    padding: 30px 5px;
+  }
+
+  .comdiv button {
+    font-family: "Open Sans";
+    font-size: 10px;
+    font-weight: 600;
+    color: white;
+    border: none;
+    padding: 10px 10%;
+    border-radius: 40px;
+    background-color: hsl(322, 100%, 66%);
+  }
+
+  .comdiv h3 {
+    font-size: 16px;
+    font-weight: 750;
+  }
+
+  .im img {
+    display: flex;
+    position: absolute;
+    mix-blend-mode: lighten;
+    margin: 70px 0 0 6%;
+    width: 180px;
+
+  }
+
+  .lastdiv {
+    display: flex;
+    padding: 130px 0 0 0;
+    margin: 0  0 0 8.5%;
+  }
+
+  address {
+    width: 100%;
+    padding: 0;
+  }
+  .add{
+    display: flex;
+    justify-content: center;
+    width: 35%;
+    padding: 0;
+  }
+  .lastdiv1, .lastdiv2{
+    display: flex;
+    justify-content: flex-end;
+    width: 20%;
+  }
+  .lastdiv1 ul, .lastdiv2 ul{
+    padding-left: 20%;
+  }
+  .social{
+    width: 80%;
+  }
+  .soc{
+    justify-content: flex-start;
+    width: 30%;
+    padding-left: 5%;
+
+  }
+  .lastdiv2 ul{
+    margin: 0;
+  }
+
+  .ul1{
+    margin: 0;
+  }
+ address ul {
+  margin-top: 8px;
+ }
+
+
+  .copyright{
+    text-align: right;
+    padding-right: 6%;
+  }
+  footer .attribution{
+    text-decoration: dotted;
+    font-size: 12px;
+  }
+}
