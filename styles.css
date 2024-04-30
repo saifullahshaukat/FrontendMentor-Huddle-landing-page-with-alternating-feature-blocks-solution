@@ -558,7 +558,7 @@ footer {
     background-color: #edfbfe;
     height: 80vh;
     padding: 0 80px;
-    background-image: url(images/bg-hero-desktop.svg);
+    background-image: url(bg-hero-desktop.svg);
   }
 
   .bannerimg {
