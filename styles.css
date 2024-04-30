@@ -226,15 +226,15 @@ address ul li:first-child {
 }
 
 address ul li:first-child {
-  list-style-image: url(images/icon-location.svg);
+  list-style-image: url(icon-location.svg);
 }
 
 address ul li:nth-of-type(2) {
-  list-style-image: url(images/icon-phone.svg);
+  list-style-image: url(icon-phone.svg);
 }
 
 address ul li:last-child {
-  list-style-image: url(images/icon-email.svg);
+  list-style-image: url(icon-email.svg);
 }
 
 .social {
@@ -327,7 +327,7 @@ footer {
     background-color: #edfbfe;
     height: 80vh;
     padding: 0 80px;
-    background-image: url(images/bg-hero-desktop.svg);
+    background-image: url(bg-hero-desktop.svg);
   }
 
   .bannerimg {
